@@ -1,0 +1,19 @@
+.img {
+    width: 300px;
+    border-radius: 60px;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.wrapperImg {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1500px;
+    margin: 0 auto;
+}
+.description {
+    width: 300px;
+    color: white;
+    text-align: center;
+    margin-left: 30px;
+}

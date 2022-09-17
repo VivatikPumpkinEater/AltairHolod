@@ -1,0 +1,21 @@
+.descriptionWrapper {
+    width: 50%;
+    margin-top: 8%;
+    padding: 0 0 15px 200px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 40px;
+}
+.title {
+    font-weight: 900;
+    font-size: 64px;
+    color: white;
+}
+.description {
+    color: white;
+    padding: 20px;
+    border-radius: 50px;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}

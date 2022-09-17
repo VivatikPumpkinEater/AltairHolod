@@ -1,0 +1,6 @@
+.mainWrapper {
+    background-image: url('/src/assets/mainBg.jpg');
+    background-position: center ;
+    background-size: cover;
+    height: 100vh;
+}

@@ -1,40 +1,23 @@
-import React, { Component } from "react";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import gippo from '../../assets/gippi-removebg-preview.png'
-import crown from '../../assets/crown-removebg-preview.png'
-import bel from '../../assets/belm-removebg-preview.png'
-import pros from '../../assets/pros-removebg-preview.png'
-export default class SimpleSlider extends Component {
-    render() {
-        const settings = {
-            dots: true,
-            infinite: true,
-            speed: 500,
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            autoplay:true,
-            autoplaySpeed:1500,
-        };
-        return (
-            <div className={s.sliderWrapper}>
-                <h2> Single Item</h2>
-                <Slider {...settings}>
-                    <div>
-                        <img src={gippo}/>
-                    </div>
-                    <div>
-                        <img src={crown}/>
-                    </div>
-                    <div>
-                        <img src={bel}/>
-                    </div>
-                    <div>
-                        <img src={pros}/>
-                    </div>
-                </Slider>
-            </div>
-        );
-    }
+.sliderWrapper {
+    width: 30vw;
+    margin-top: 30% ;
+    margin-right: 100px;
 }
+.slide {
+    width: 400px;
+    height: 100px;
+}
+.slide1 {
+    display: inline-block;
+    width: 200px;
+    margin: 0 auto;
+}
+.slide2 {
+    width: 400px;
+    height: 110px;
+}
+.slide3 {
+     width: 400px;
+    height: 100px;
+ }
+
