@@ -4,3 +4,9 @@
     background-size: cover;
     height: 100vh;
 }
+@media (max-width: 376px) {
+    .mainWrapper {
+        height: 100%;
+        background-size: contain;
+    }
+}

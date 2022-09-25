@@ -10,7 +10,7 @@ import image8 from '../../../../assets/8.jpg'
 import image9 from '../../../../assets/9.jpg'
 import image10 from '../../../../assets/10.jpg'
 import image11 from '../../../../assets/11.jpg'
-import s from './Content.module.css'
+import s from './Content.module.scss'
 const Content = () => {
     const arr = [
         {

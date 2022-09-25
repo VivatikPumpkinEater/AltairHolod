@@ -1,0 +1,112 @@
+.wrapperContainer {
+    background: #0A101A;
+}
+.wrapper {
+    padding-top: 100px;
+    display: flex;
+    justify-content: end;
+    @media (max-width: 1000px) {
+        padding-top: 10px;
+    }
+}
+.title {
+    font-weight: 900;
+    font-size: 64px;
+    color: white;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px 60px 30px 60px;
+    margin-right: 200px;
+    border-radius: 40px;
+    align-items: center;
+    @media (max-width: 1000px) {
+        font-size: 40px;
+        width: 100%;
+        margin: 0 auto;
+        border-radius: 0;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.5);
+    }
+}
+.ourPlus {
+    font-weight: 900;
+    font-size: 64px;
+    color: white;
+    padding-right: 100px;
+    border-right: 1px solid white;
+    line-height: 66px;
+    @media (max-width: 1000px) {
+        font-size: 40px;
+        width: 100%;
+        border-radius: 0;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        border: none;
+        padding: 20px 60px 30px 60px;
+        line-height: 50px;
+    }
+
+}
+.ourDescription {
+    font-size: 20px;
+    color: white;
+    margin-left: 50px;
+    line-height: 26px;
+    @media (max-width: 1000px) {
+        margin-left: 20px;
+    }
+}
+.ourWrapper {
+    display: flex;
+    width: 1400px;
+    margin: 90px auto 80px auto;
+    @media (max-width: 1000px) {
+        width: 90%;
+        display: block;
+        padding-bottom: 70px;
+        border-bottom: 1px solid #ffffff;
+    }
+}
+.mail {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+.icon {
+    width: 50px;
+    display: inline-block;
+    margin-right: 30px;
+    position: relative;
+    top:10px;
+    @media (max-width: 1000px) {
+    display: none;
+}
+}
+.footer {
+    display: flex;
+    width: 800px;
+    margin: 0 auto;
+    padding-bottom: 80px;
+    justify-content: space-around;
+    @media (max-width: 1000px) {
+        width: 90%;
+        display: block;
+        text-align: center;
+    }
+}
+.tel {
+    display: flex;
+    position: relative;
+    top:15px;
+    @media (max-width: 1000px) {
+        justify-content: center;
+    }
+}
+.iconTel {
+    margin-right: 30px;
+    width: 40px;
+    height: 40px;
+    @media (max-width: 1000px) {
+        display: none;
+    }
+}

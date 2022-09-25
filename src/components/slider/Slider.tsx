@@ -6,7 +6,7 @@ import gippo from '../../assets/logo-Hippo.png'
 import crown from '../../assets/crown-removebg-preview.png'
 import bel from '../../assets/belm-removebg-preview.png'
 import pros from '../../assets/pros.png'
-import s from './Slider.module.css'
+import s from './Slider.module.scss'
 export default class SimpleSlider extends Component {
     render() {
         const settings = {

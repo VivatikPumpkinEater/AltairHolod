@@ -4,11 +4,23 @@
     padding: 0 0 15px 200px;
     background-color: rgba(0, 0, 0, 0.8);
     border-radius: 40px;
+    @media (max-width: 1000px) {
+    font-size: 15px;
+        width: 90%;
+        padding: 0 0 15px 10px;
+        margin: 8% auto 0 auto;
+
+}
 }
 .title {
     font-weight: 900;
     font-size: 64px;
     color: white;
+    @media (max-width: 1000px) {
+        padding-top: 20px;
+        font-size: 20px;
+        text-align: center;
+    }
 }
 .description {
     color: white;
@@ -18,4 +30,7 @@
 .wrapper {
     display: flex;
     justify-content: space-between;
+    @media (max-width: 1000px) {
+        display: block;
+    }
 }

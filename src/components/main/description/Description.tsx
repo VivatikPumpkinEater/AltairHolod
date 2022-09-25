@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './Description.module.css'
+import s from './Description.module.scss'
 import SimpleSlider from "../../slider/Slider";
 
 const Description = () => {

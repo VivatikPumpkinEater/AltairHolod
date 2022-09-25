@@ -4,17 +4,30 @@
     justify-content: space-around;
     padding: 30px;
     background-color: rgba(0, 0, 0, 0.8);
+
+    @media (max-width: 1500px) {
+        flex-direction: column;
+        text-align: center;
+        padding: 15px;
+    }
 }
 .headerTitle {
     color: white;
     font-size: 32px;
     font-weight: 900;
+    @media (max-width: 1000px) {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
 }
 .headerTel {
     color: white;
     font-size: 32px;
     font-weight: 400;
     text-decoration: none;
+    @media (max-width: 1000px) {
+        font-size: 20px;
+    }
 }
 .headerTelIcon {
     background-color: white;
@@ -23,4 +36,9 @@
     position: relative;
     top: 10px;
     margin-right: 10px;
+    @media (max-width: 1000px) {
+        width: 25px;
+        height: 25px;
+        top:5px
+    }
 }

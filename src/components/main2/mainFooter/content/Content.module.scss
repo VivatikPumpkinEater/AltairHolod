@@ -3,6 +3,9 @@
     border-radius: 60px;
     margin-left: 30px;
     margin-top: 40px;
+    @media (max-width: 1000px) {
+        width: 240px;
+    }
 }
 .wrapperImg {
     display: flex;
@@ -10,10 +13,19 @@
     flex-wrap: wrap;
     width: 1500px;
     margin: 0 auto;
+    @media (max-width: 1000px) {
+        width: 100%;
+       justify-content: center;
+    }
 }
 .description {
     width: 300px;
     color: white;
     text-align: center;
     margin-left: 30px;
+    @media (max-width: 1000px) {
+     margin-top: 15px;
+        font-size: 20px;
+        margin-left: 0px;
+    }
 }

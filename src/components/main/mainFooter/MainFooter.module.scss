@@ -1,0 +1,75 @@
+.footerWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+    @media (max-width: 1000px) {
+        flex-direction: column;
+        background-color: #0A101A;
+        padding-top: 40px;
+    }
+}
+.years {
+    font-size: 128px;
+    font-weight: 900;
+    color: black;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+    z-index: 2;
+    @media (max-width: 1000px) {
+        font-size: 60px;
+        margin-bottom: 40px;
+    }
+    @media (max-width: 385px) {
+        font-size: 40px;
+    }
+}
+.yearsWrapper {
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+    @media (max-width: 1000px) {
+        margin-right: 0px;
+    }
+}
+.svg {
+    position: relative;
+    left: -15px;
+    top: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 50%;
+
+    @media (max-width: 1000px) {
+        padding: 20px;
+        top:-18px
+    }
+    @media (max-width: 1000px) {
+        padding: 20px;
+    }
+
+}
+@media (max-width: 1000px) {
+    svg {
+        width: 30px;
+    }
+
+}
+@media (max-width: 385px) {
+    svg {
+        width: 25px;
+    }
+
+}
+.yearsMarket {
+    font-size: 36px;
+    font-weight: 900;
+    color: white;
+    line-height: 40px;
+    @media (max-width: 1000px) {
+        font-size: 20px;
+        line-height: 30px;
+        position: relative;
+        top: -18px;
+    }
+}

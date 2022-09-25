@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './Main2.module.css'
+import s from './Main2.module.scss'
 import Content from "./content/Content";
 import icon from '../../../assets/hren-removebg-preview.png'
 import IconTel from '../../../assets/phone.png'
