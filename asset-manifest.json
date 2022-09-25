@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/AltairHolod/static/css/main.2d09eed1.css",
+    "main.css": "/AltairHolod/static/css/main.1626706d.css",
     "main.js": "/AltairHolod/static/js/main.21644a16.js",
     "static/js/787.6846bd17.chunk.js": "/AltairHolod/static/js/787.6846bd17.chunk.js",
     "static/media/mainBg.jpg": "/AltairHolod/static/media/mainBg.f8ade62c5a892468451f.jpg",
@@ -24,12 +24,12 @@
     "static/media/slick.ttf": "/AltairHolod/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/AltairHolod/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/AltairHolod/index.html",
-    "main.2d09eed1.css.map": "/AltairHolod/static/css/main.2d09eed1.css.map",
+    "main.1626706d.css.map": "/AltairHolod/static/css/main.1626706d.css.map",
     "main.21644a16.js.map": "/AltairHolod/static/js/main.21644a16.js.map",
     "787.6846bd17.chunk.js.map": "/AltairHolod/static/js/787.6846bd17.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d09eed1.css",
+    "static/css/main.1626706d.css",
     "static/js/main.21644a16.js"
   ]
 }
